@@ -3,7 +3,7 @@ let userInput = process.argv[2];
 let numberPicked = Number(userInput);
 
 if (numberPicked < 1 || numberPicked > 6 || isNaN(numberPicked)){
-    console.log("You enterd: " + userInput + ". You can only enter a number value betwwen 1 throught 6");
+    console.log("You enterd: " + userInput + ". You can only enter a number value between 1 throught 6");
     process.exit();
 } else {
     console.log("The number you picked is: " + numberPicked);
